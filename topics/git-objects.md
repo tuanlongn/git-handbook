@@ -8,9 +8,11 @@
 ### **Ví dụ cụ thể:**
 
 Giả sử bạn có một đối tượng với mã băm SHA-1 như sau:
+
 ```
 e7c3d5b6a2f1e9d8c4b3a7f6e5d4c3b2a1f0d9e8
 ```
+
 - **Thư mục con**: `.git/objects/e7/` (vì **`e7`** là 2 ký tự đầu tiên của mã băm).
 - **Tên tệp**: `c3d5b6a2f1e9d8c4b3a7f6e5d4c3b2a1f0d9e8` (38 ký tự còn lại).
 
@@ -42,19 +44,21 @@ Bạn có thể liệt kê các tệp trong thư mục `.git/objects/e7` bằng 
 ls .git/objects/e7
 ```
 
-```
+```text
 Mỗi tệp trong thư mục này là một đối tượng Git có mã băm bắt đầu với e7.
 ```
 
 ### **Hiển thị nội dung của một đối tượng:**
 
 - Để xem loại và kích thước của một đối tượng, bạn có thể sử dụng lệnh:
+
 ```bash
 git cat-file -t e7c3d5b6a2f1e9d8c4b3a7f6e5d4c3b2a1f0d9e8
 git cat-file -s e7c3d5b6a2f1e9d8c4b3a7f6e5d4c3b2a1f0d9e8
 ```
 
 - Để xem nội dung đối tượng (nếu là blob hoặc commit), dùng:
+
 ```bash
 git cat-file -p e7c3d5b6a2f1e9d8c4b3a7f6e5d4c3b2a1f0d9e8
 ```

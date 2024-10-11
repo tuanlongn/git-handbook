@@ -5,4 +5,6 @@
 
 ### Sử dụng Git trong công việc (workflow)
 
-- `git stash` Trong quá trình phát triển dự án, có những lúc bạn đang làm việc trên một tính năng mới nhưng cần chuyển đổi sang một nhánh khác hoặc cập nhật mã nguồn từ xa. Tuy nhiên, các thay đổi hiện tại của bạn chưa sẵn sàng để commit. Hãy sử dụng [`git stash`](topics/git-stash.md).
+- Trong quá trình phát triển dự án, có những lúc bạn đang làm việc trên một tính năng mới nhưng cần chuyển đổi sang một nhánh khác hoặc cập nhật mã nguồn từ xa. Tuy nhiên, các thay đổi hiện tại của bạn chưa sẵn sàng để commit. Hãy sử dụng [`git stash`](topics/git-stash.md).
+
+- **Git Workflow** để tối ưu hóa hợp tác, giảm xung đột code và đảm bảo chất lượng sản phẩm. [Xem chi tiết](topics/git-workflow.md).
