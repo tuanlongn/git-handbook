@@ -30,7 +30,8 @@ graph LR
 
 - Trong **Git** thư mục `.git/objects/` là nơi lưu trữ tất cả các đối tượng (**objects**) như **blob**, **tree**, **commit**, và **tag**. Mỗi đối tượng này được nhận dạng duy nhất bằng một mã băm **SHA-1** dài **40 ký tự**. [Xem chi tiết](topics/git-objects.md).
 
-- Git `Blob` (viết tắt của “Binary Large Object”) là một loại đối tượng cơ bản được sử dụng để lưu trữ `nội dung của tệp`. [Xem chi tiết](topics/git-blob.md).
+- Git **Commit** là một điểm mốc (snapshot) trong lịch sử phát triển của dự án, ghi lại trạng thái của toàn bộ mã nguồn tại một thời điểm. [Xem chi tiết](topics/git-commit.md).
+- Git **Blob** (viết tắt của “Binary Large Object”) là một loại đối tượng cơ bản được sử dụng để lưu trữ `nội dung của tệp`. [Xem chi tiết](topics/git-blob.md).
 - Git **Tree** là đại diện cho cấu trúc thư mục tại một thời điểm cụ thể. [Xem chi tiết](topics/git-tree.md).
 
 ### Sử dụng Git trong công việc (workflow)
